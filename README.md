@@ -212,14 +212,7 @@
   </picture>
 </div>
 
-<br>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coder-xander/coder-xander/output/github-contribution-grid-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/coder-xander/coder-xander/output/github-contribution-grid-snake.svg" alt="Snake animation" width="60%">
-  </picture>
-</div>
 
 <br>
 
