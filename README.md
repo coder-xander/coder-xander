@@ -26,113 +26,69 @@
 
 ---
 
-## ⚡ What I Actually Work With
+## ⚡ Stack
 
 > C++ is home. Everything else is how I ship.
 
-### 🧬 Modern C++ — Core Stack
+### 🧬 Modern C++
 
 <p align="center">
   <img src="https://img.shields.io/badge/-C%2B%2B20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++20">
   <img src="https://img.shields.io/badge/-CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake">
   <img src="https://img.shields.io/badge/-GTest-5E6C8A?style=for-the-badge" alt="GTest">
-  <img src="https://img.shields.io/badge/-std::jthread-6DB33F?style=for-the-badge" alt="std::jthread">
-  <img src="https://img.shields.io/badge/-std::atomic-DC382D?style=for-the-badge" alt="std::atomic">
-  <img src="https://img.shields.io/badge/-std::shared_mutex-1565C0?style=for-the-badge" alt="shared_mutex">
-  <br>
   <img src="https://img.shields.io/badge/-Work%20Stealing%20Deque-8A2BE2?style=for-the-badge" alt="Work Stealing Deque">
   <img src="https://img.shields.io/badge/-Priority%20Scheduling-FF6F00?style=for-the-badge" alt="Priority Scheduling">
+  <br>
   <img src="https://img.shields.io/badge/-Structured%20Concurrency-00ADD8?style=for-the-badge" alt="Structured Concurrency">
+  <img src="https://img.shields.io/badge/-Lock--Free%20Primitives-DC382D?style=for-the-badge" alt="Lock-Free Primitives">
   <img src="https://img.shields.io/badge/-Template%20Metaprogramming-8B0000?style=for-the-badge" alt="TMP">
   <img src="https://img.shields.io/badge/-RAII-4096B0?style=for-the-badge" alt="RAII">
 </p>
 
-<p align="center">
-  <code>std::thread</code> · <code>std::future</code> · <code>std::mutex</code> · <code>std::shared_lock</code> · <code>std::deque</code>
-  <br>
-  <code>std::random</code> · <code>std::optional</code> · <code>std::variant</code>
-</p>
+<pre align="center">
+std::jthread · std::atomic · std::shared_mutex · std::future · std::optional
+</pre>
 
-### 🎨 Frontend
+### 🌐 Full Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Vue_3-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue 3">
   <img src="https://img.shields.io/badge/-Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron">
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <br>
   <img src="https://img.shields.io/badge/-Gridstack-6DB33F?style=for-the-badge" alt="Gridstack">
   <img src="https://img.shields.io/badge/-electron--builder-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="electron-builder">
+  <br>
+  <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/-Playwright-45BA4B?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright">
   <img src="https://img.shields.io/badge/-WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="WebSocket">
+  <img src="https://img.shields.io/badge/-PySide6-41CD52?style=for-the-badge" alt="PySide6">
 </p>
 
-### ⚙️ Backend & Scripting
+### 🔧 Embedded & Infra
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
-  <br>
-  <code>FastAPI</code> · <code>requests</code> · <code>websockets</code> · <code>watchdog</code> · <code>PySide6</code>
-  <br>
-  <code>Playwright</code> · <code>BeautifulSoup</code>
-</p>
-
-### 🔧 Embedded & Hardware
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-RK3576-FF6C37?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSI4IiBmaWxsPSIjRkZDNzgwIi8+PHRleHQgeD0iMzIiIHk9IjQwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzAwMDAwMCI+UkE8L3RleHQ+PC9zdmc+" alt="RK3576">
-  <img src="https://img.shields.io/badge/-SSH-000000?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="SSH">
-  <img src="https://img.shields.io/badge/-Serial%20Debugging-1E90FF?style=for-the-badge" alt="Serial">
-  <img src="https://img.shields.io/badge/-Cross%20Compilation-2B5B84?style=for-the-badge" alt="Cross Compilation">
-  <br>
-  <code>OpenClaw</code> · <code>Clash</code> · <code>systemd</code>
-</p>
-
-### ☁️ DevOps & Infra
-
-<p align="center">
+  <img src="https://img.shields.io/badge/-RK3576-FF6C37?style=for-the-badge" alt="RK3576">
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/-Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose">
   <img src="https://img.shields.io/badge/-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx">
   <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions">
   <img src="https://img.shields.io/badge/-Systemd-006400?style=for-the-badge&logo=systemd&logoColor=white" alt="Systemd">
   <br>
-  <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
-</p>
-
-### 🤖 AI & LLMs
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-DeepSeek-4F6BF9?style=for-the-badge" alt="DeepSeek">
-  <img src="https://img.shields.io/badge/-Kimi-FF6B6B?style=for-the-badge" alt="Kimi">
-  <img src="https://img.shields.io/badge/-MiMo-FFC107?style=for-the-badge" alt="MiMo">
-  <img src="https://img.shields.io/badge/-Lumai-9C27B0?style=for-the-badge" alt="Lumai">
-  <img src="https://img.shields.io/badge/-Claude-D97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
-  <img src="https://img.shields.io/badge/-Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini">
-  <br>
-  <code>Agent orchestration</code> · <code>Prompt engineering</code> · <code>API integration</code>
-  <br>
-  <code>Multi-model balance tracking</code> · <code>Usage analytics</code>
+  <img src="https://img.shields.io/badge/-Cross%20Compilation-2B5B84?style=for-the-badge" alt="Cross Compilation">
+  <img src="https://img.shields.io/badge/-Serial%20Debugging-1E90FF?style=for-the-badge" alt="Serial Debugging">
 </p>
 
 ### 🛠️ Tools
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim">
-  <img src="https://img.shields.io/badge/-Zed-084CCF?style=for-the-badge&logo=zed&logoColor=white" alt="Zed">
-  <img src="https://img.shields.io/badge/-Ghostty-1A1A2E?style=for-the-badge&logo=gnome-terminal&logoColor=white" alt="Ghostty">
-  <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
+  <img src="https://img.shields.io/badge/-Zed-084CCF?style=for-the-badge&logo=zedindustries&logoColor=white" alt="Zed">
+  <img src="https://img.shields.io/badge/-Ghostty-000000?style=for-the-badge" alt="Ghostty">
   <img src="https://img.shields.io/badge/-CLion-000000?style=for-the-badge&logo=clion&logoColor=white" alt="CLion">
   <br>
   <img src="https://img.shields.io/badge/-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
-  <img src="https://img.shields.io/badge/-Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion">
-  <img src="https://img.shields.io/badge/-Krita-3BABFF?style=for-the-badge&logo=krita&logoColor=white" alt="Krita">
   <img src="https://img.shields.io/badge/-Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white" alt="Blender">
-  <br>
-  <code>Postman</code> · <code>fcitx5 · Rime</code>
+  <img src="https://img.shields.io/badge/-Krita-3BABFF?style=for-the-badge&logo=krita&logoColor=white" alt="Krita">
+  <img src="https://img.shields.io/badge/-Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion">
 </p>
 
 ---
