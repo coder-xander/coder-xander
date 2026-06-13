@@ -251,5 +251,5 @@
 <br>
 
 <div align="center">
-  <sub><i>从kernel到dashboard — every layer, every tool, one mission: make machines think.</i></sub>
+  <sub><i>from kernel to dashboard — every layer, every tool, one mission: make machines think.</i></sub>
 </div>
