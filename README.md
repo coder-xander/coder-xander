@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=500&color=58A6FF&center=true&vCenter=true&width=600&lines=C%2B%2B+systems+engineer+%F0%9F%A4%96;firmware+to+dashboard+generalist;Robotics+%C2%B7+Embedded+%C2%B7+Full+Stack;Linux+kernel+%C2%B7+bootloader+%C2%B7+OTA;AI+agents+%C2%B7+CLI+%C2%B7+TUI+builder">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=500&color=1F6FEB&center=true&vCenter=true&width=600&lines=C%2B%2B+systems+engineer+%F0%9F%A4%96;firmware+to+dashboard+generalist;Robotics+%C2%B7+Embedded+%C2%B7+Full+Stack;Linux+kernel+%C2%B7+bootloader+%C2%B7+OTA;AI+agents+%C2%B7+CLI+%C2%B7+TUI+builder" alt="Typing SVG">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=500&color=58A6FF&center=true&vCenter=true&width=600&lines=C%2B%2B+systems+engineer+%F0%9F%A4%96;firmware+to+dashboard+generalist;Robotics+%C2%B7+Embedded+%C2%B7+Full+Stack;Linux+kernel+%C2%B7+OTA;AI+agents+%C2%B7+CLI+%C2%B7+TUI+builder">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=500&color=1F6FEB&center=true&vCenter=true&width=600&lines=C%2B%2B+systems+engineer+%F0%9F%A4%96;firmware+to+dashboard+generalist;Robotics+%C2%B7+Embedded+%C2%B7+Full+Stack;Linux+kernel+%C2%B7+OTA;AI+agents+%C2%B7+CLI+%C2%B7+TUI+builder" alt="Typing SVG">
   </picture>
 </div>
 
@@ -22,7 +22,7 @@
 
 <br>
 
-<p align="center"><strong>From bootloader to dashboard — C++ at the core, systems at heart.</strong></p>
+<p align="center"><strong>从kernel到dashboard — C++ at the core, systems at heart.</strong></p>
 
 <br>
 
@@ -251,5 +251,5 @@
 <br>
 
 <div align="center">
-  <sub><i>From bootloader to dashboard — every layer, every tool, one mission: make machines think.</i></sub>
+  <sub><i>从kernel到dashboard — every layer, every tool, one mission: make machines think.</i></sub>
 </div>
