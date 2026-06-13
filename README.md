@@ -22,7 +22,7 @@
 
 <br>
 
-<p align="center"><strong>从kernel到dashboard — C++ at the core, systems at heart.</strong></p>
+<p align="center"><strong>from kernel to dashboard — C++ at the core, systems at heart.</strong></p>
 
 <br>
 
