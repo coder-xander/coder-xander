@@ -45,10 +45,6 @@
   <img src="https://img.shields.io/badge/-RAII-4096B0?style=for-the-badge" alt="RAII">
 </p>
 
-<pre align="center">
-std::jthread · std::atomic · std::shared_mutex · std::future · std::optional
-</pre>
-
 ### 🌐 Full Stack
 
 <p align="center">
