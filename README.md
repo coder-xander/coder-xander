@@ -198,7 +198,9 @@
 
 | Project | # | Title | Created |
 |---------|---|-------|---------|
-| _Auto-updated by GitHub Actions — will appear after first run._ | | | |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#45451](https://github.com/NousResearch/hermes-agent/pull/45451) | 🟢 fix(cron): `hermes cron edit --profile <name>` now sets … | 2026-06-13 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#45051](https://github.com/NousResearch/hermes-agent/pull/45051) | 🟢 fix: remove source filter from /sessions to show all loc… | 2026-06-12 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#45007](https://github.com/NousResearch/hermes-agent/pull/45007) | 🟢 fix(auxiliary): use empty default for OpenRouter auxilia… | 2026-06-12 |
 
 <!-- LATEST_PRS_END -->
 
