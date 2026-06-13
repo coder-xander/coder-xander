@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=500&color=58A6FF&center=true&vCenter=true&width=500&lines=Hey+there+%F0%9F%91%8B;I'm+xander;full+stack+%2B%2B+coder;open+source+enthusiast">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=500&color=1F6FEB&center=true&vCenter=true&width=500&lines=Hey+there+%F0%9F%91%8B;I'm+xander;full+stack+%2B%2B+coder;open+source+enthusiast" alt="Typing SVG">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=500&color=58A6FF&center=true&vCenter=true&width=500&lines=Hey+there+%F0%9F%91%8B;I'm+xander;a+C%2B%2B+crafter;full-stack+by+necessity">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=500&color=1F6FEB&center=true&vCenter=true&width=500&lines=Hey+there+%F0%9F%91%8B;I'm+xander;a+C%2B%2B+crafter;full-stack+by+necessity" alt="Typing SVG">
   </picture>
 </div>
 
@@ -26,7 +26,72 @@
 
 ---
 
-## 🧰 Full Stack Arsenal
+## ⚡ Skills & Expertise
+
+> C++ is my craft. The rest of the stack is just tools to ship it.
+
+### 🧬 Modern C++ — Core Identity
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-C++17%2F20%2F23-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++17/20/23">
+  <img src="https://img.shields.io/badge/-Concepts%20%26%20Ranges-6F42C1?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="Concepts & Ranges">
+  <img src="https://img.shields.io/badge/-Coroutines%20(TS)-00ADD8?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="Coroutines">
+  <img src="https://img.shields.io/badge/-Modules-512BD4?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="Modules">
+  <img src="https://img.shields.io/badge/-constexpr%20%26%20Metaprogramming-FF6F00?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="constexpr & Metaprogramming">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-std::jthread%20%26%20Async-6DB33F?style=for-the-badge" alt="jthread & Async">
+  <img src="https://img.shields.io/badge/-Lock--Free%20%26%20Wait--Free-DC382D?style=for-the-badge" alt="Lock-Free & Wait-Free">
+  <img src="https://img.shields.io/badge/-Work%20Stealing%20Scheduler-8A2BE2?style=for-the-badge" alt="Work Stealing Scheduler">
+  <img src="https://img.shields.io/badge/-Memory%20Ordering%20%26%20Atomics-2B579A?style=for-the-badge" alt="Memory Ordering & Atomics">
+  <img src="https://img.shields.io/badge/-SIMD%20%26%20Intrinsics-FF4500?style=for-the-badge" alt="SIMD & Intrinsics">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-RAII%20%26%20Move%20Semantics-4096B0?style=for-the-badge" alt="RAII & Move Semantics">
+  <img src="https://img.shields.io/badge/-CRTP%20%26%20Policy%20Based%20Design-1B5E20?style=for-the-badge" alt="CRTP & Policy Based Design">
+  <img src="https://img.shields.io/badge/-Template%20Metaprogramming-8B0000?style=for-the-badge" alt="Template Metaprogramming">
+  <img src="https://img.shields.io/badge/-SFINAE%20%26%20Type%20Traits-1565C0?style=for-the-badge" alt="SFINAE & Type Traits">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake">
+  <img src="https://img.shields.io/badge/-Conan-6699CB?style=for-the-badge&logo=conan&logoColor=white" alt="Conan">
+  <img src="https://img.shields.io/badge/-vcpkg-00B4AB?style=for-the-badge" alt="vcpkg">
+  <img src="https://img.shields.io/badge/-GTest%20%26%20Benchmark-5E6C8A?style=for-the-badge" alt="GTest & Benchmark">
+  <img src="https://img.shields.io/badge/-Catch2-00BFFF?style=for-the-badge" alt="Catch2">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-Boost-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="Boost">
+  <img src="https://img.shields.io/badge/-Abseil-4285F4?style=for-the-badge" alt="Abseil">
+  <img src="https://img.shields.io/badge/-Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="Qt">
+  <img src="https://img.shields.io/badge/-Folly-9747FF?style=for-the-badge" alt="Folly">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-ASan%20%26%20UBSan-1A73E8?style=for-the-badge" alt="ASan & UBSan">
+  <img src="https://img.shields.io/badge/-Valgrind%20%26%20Perf-708090?style=for-the-badge" alt="Valgrind & Perf">
+  <img src="https://img.shields.io/badge/-Tracy%20Profiler-FFD700?style=for-the-badge" alt="Tracy Profiler">
+  <img src="https://img.shields.io/badge/-Cache%20Friendly%20Design-2E7D32?style=for-the-badge" alt="Cache Friendly Design">
+</p>
+
+<details>
+<summary>🗡️ Deep Expertise</summary>
+<br>
+
+> Template metaprogramming · Expression templates · CRTP & mixins · Policy-based class design  
+> Lock-free ring buffers · MPMC queues · Hazard pointers · EBR (epoch-based reclamation)  
+> Memory pool allocators · Custom allocators · Placement new · Arena allocation  
+> Compile-time computation (constexpr/constinit/consteval) · Type erasure · `std::variant` & `std::visit`  
+> Cache line padding · False sharing avoidance · NUMA-aware scheduling · CPU affinity  
+> Cross-platform (Linux, macOS, Windows, Embedded ARM) · Cross-compilation · sysroot toolchains  
+> RTTI alternatives · PIMPL idiom · Zero-cost abstractions · static polymorphism  
+
+</details>
+
+<br>
 
 ### 🎨 Frontend
 
@@ -51,41 +116,30 @@
 ### ⚙️ Backend
 
 <p align="center">
+  <img src="https://img.shields.io/badge/-C%2B%2B20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++20">
   <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
   <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/-WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="WebSocket">
   <br>
-  <img src="https://img.shields.io/badge/-C%2B%2B20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++20">
   <img src="https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
   <img src="https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/-REST%20API-25A162?style=for-the-badge" alt="REST API">
+  <img src="https://img.shields.io/badge/-gRPC-4285F4?style=for-the-badge&logo=grpc&logoColor=white" alt="gRPC">
   <img src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL">
-  <img src="https://img.shields.io/badge/-WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="WebSocket">
+  <img src="https://img.shields.io/badge/-ZeroMQ-B0004B?style=for-the-badge&logo=zeromq&logoColor=white" alt="ZeroMQ">
 </p>
 
 ### 🗄️ Database & Storage
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
-  <img src="https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
   <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-</p>
-
-### 🧵 C++ Ecosystem
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake">
-  <img src="https://img.shields.io/badge/-Conan-6699CB?style=for-the-badge&logo=conan&logoColor=white" alt="Conan">
-  <img src="https://img.shields.io/badge/-GTest-5E6C8A?style=for-the-badge" alt="GTest">
-  <img src="https://img.shields.io/badge/-Boost-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="Boost">
-  <br>
-  <img src="https://img.shields.io/badge/-std::thread-6DB33F?style=for-the-badge" alt="Threading">
-  <img src="https://img.shields.io/badge/-Lock%20Free-DC382D?style=for-the-badge" alt="Lock-Free">
-  <img src="https://img.shields.io/badge/-Work%20Stealing-8A2BE2?style=for-the-badge" alt="Work-Stealing">
-  <img src="https://img.shields.io/badge/-Async%20Programming-0AA0D9?style=for-the-badge" alt="Async">
+  <img src="https://img.shields.io/badge/-LevelDB-FF6F00?style=for-the-badge" alt="LevelDB">
+  <img src="https://img.shields.io/badge/-RocksDB-2B5B84?style=for-the-badge" alt="RocksDB">
 </p>
 
 ### ☁️ DevOps & Infrastructure
@@ -95,27 +149,36 @@
   <img src="https://img.shields.io/badge/-Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose">
   <img src="https://img.shields.io/badge/-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx">
   <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/-Systemd-006400?style=for-the-badge&logo=systemd&logoColor=white" alt="Systemd">
   <br>
   <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
   <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/-CI%2FCD-239120?style=for-the-badge&logo=jenkins&logoColor=white" alt="CI/CD">
-  <img src="https://img.shields.io/badge/-Systemd-006400?style=for-the-badge&logo=systemd&logoColor=white" alt="Systemd">
+  <img src="https://img.shields.io/badge/-CI%2FCD-239120?style=for-the-badge" alt="CI/CD">
+  <img src="https://img.shields.io/badge/-Cloudflare-380D9D?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare">
+  <img src="https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
 </p>
 
-### 🤖 AI & ML
+### 🤖 AI & Agent Ecosystem
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-LLM%20API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="LLM API">
-  <img src="https://img.shields.io/badge/-Prompt%20Engineering-FF6F00?style=for-the-badge" alt="Prompt Engineering">
-  <img src="https://img.shields.io/badge/-RAG-4285F4?style=for-the-badge" alt="RAG">
-  <img src="https://img.shields.io/badge/-vLLM-FF6600?style=for-the-badge" alt="vLLM">
-  <img src="https://img.shields.io/badge/-Model%20Serving-009688?style=for-the-badge" alt="Model Serving">
+  <img src="https://img.shields.io/badge/-Agent%20Orchestration-FF6F00?style=for-the-badge" alt="Agent Orchestration">
+  <img src="https://img.shields.io/badge/-LLM%20Characterization-412991?style=for-the-badge&logo=openai&logoColor=white" alt="LLM Characterization">
+  <img src="https://img.shields.io/badge/-Prompt%20Engineering-FECC00?style=for-the-badge" alt="Prompt Engineering">
+  <img src="https://img.shields.io/badge/-Multi--Agent%20Systems-00BCD4?style=for-the-badge" alt="Multi-Agent Systems">
+  <br>
+  <img src="https://img.shields.io/badge/-RAG%20%26%20Tool%20Use-4285F4?style=for-the-badge" alt="RAG & Tool Use">
+  <img src="https://img.shields.io/badge/-Model%20Capability-00C853?style=for-the-badge" alt="Model Capability">
+  <img src="https://img.shields.io/badge/-Context%20Optimization-FF5722?style=for-the-badge" alt="Context Optimization">
+  <img src="https://img.shields.io/badge/-MCP%20Protocol-7C3AED?style=for-the-badge" alt="MCP Protocol">
 </p>
+
+> Deep familiarity with GPT-4o, Claude, DeepSeek, Gemini, Qwen, Yi, GLM, and dozens more — their quirks, strengths, failure modes, and ideal use cases.
 
 ### 🛠️ Tools & Environment
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim">
+  <img src="https://img.shields.io/badge/-Zed-084CCF?style=for-the-badge&logo=zed&logoColor=white" alt="Zed">
   <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
   <img src="https://img.shields.io/badge/-CLion-000000?style=for-the-badge&logo=clion&logoColor=white" alt="CLion">
   <br>
@@ -124,6 +187,7 @@
   <img src="https://img.shields.io/badge/-Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion">
   <img src="https://img.shields.io/badge/-Krita-3BABFF?style=for-the-badge&logo=krita&logoColor=white" alt="Krita">
   <img src="https://img.shields.io/badge/-Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white" alt="Blender">
+  <img src="https://img.shields.io/badge/-iTerm2-000000?style=for-the-badge&logo=iterm2&logoColor=white" alt="iTerm2">
 </p>
 
 ---
@@ -212,8 +276,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/full%20stack%20%2B%2B%20coder-0d1117?style=for-the-badge&logo=c%2B%2B&logoColor=58a6ff">
-    <img src="https://img.shields.io/badge/full%20stack%20%2B%2B%20coder-ffffff?style=for-the-badge&logo=c%2B%2B&logoColor=1f6feb" alt="Signature">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/C%2B%2B%20craftsman%20%E2%80%A2%20full%20stack%20by%20adaptation-0d1117?style=for-the-badge&logo=c%2B%2B&logoColor=58a6ff">
+    <img src="https://img.shields.io/badge/C%2B%2B%20craftsman%20%E2%80%A2%20full%20stack%20by%20adaptation-ffffff?style=for-the-badge&logo=c%2B%2B&logoColor=1f6feb" alt="Signature">
   </picture>
 </div>
 
