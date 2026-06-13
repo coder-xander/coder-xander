@@ -1,0 +1,35 @@
+# 每天自动抓取 coder-xander 的公开 PR 并更新 README
+name: Update PRs in README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 每天 UTC 0:00
+  push:
+    branches: [main]
+  workflow_dispatch:       # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate PR table and update README
+        env:
+          # 需要 PAT 才能跨仓库搜索 issues/PRs
+          # GITHUB_TOKEN 只能在当前仓库用，跨仓库不行
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python3 .github/scripts/update_prs.py
+
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore(profile): sync open PRs in README"
+            git push
+          fi

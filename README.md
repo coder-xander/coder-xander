@@ -192,6 +192,20 @@
 
 ---
 
+<!-- LATEST_PRS_START -->
+
+### 📬 Latest Pull Requests
+
+| Project | # | Title | Created |
+|---------|---|-------|---------|
+| _Auto-updated by GitHub Actions — will appear after first run._ | | | |
+
+<!-- LATEST_PRS_END -->
+
+<br>
+
+---
+
 <div align="center"><kbd>ACTIVITY</kbd></div>
 
 <br>
