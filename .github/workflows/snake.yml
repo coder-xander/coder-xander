@@ -17,8 +17,8 @@ jobs:
         with:
           github_user_name: coder-xander
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?dark_snake
+            dist/github-contribution-grid-snake.svg?isometric
+            dist/github-contribution-grid-snake-dark.svg?isometric&dark_snake
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
