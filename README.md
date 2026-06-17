@@ -198,6 +198,7 @@
 
 | Project | # | Title | Created |
 |---------|---|-------|---------|
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#47378](https://github.com/NousResearch/hermes-agent/pull/47378) | 🟢 fix(agent): distinguish network unreachable from missing… | 2026-06-16 |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#46449](https://github.com/NousResearch/hermes-agent/pull/46449) | 🟢 fix: hindsight local timestamps + discord tool_search de… | 2026-06-15 |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#45451](https://github.com/NousResearch/hermes-agent/pull/45451) | 🟢 fix(cron): `hermes cron edit --profile <name>` now sets … | 2026-06-13 |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#45051](https://github.com/NousResearch/hermes-agent/pull/45051) | 🟢 fix: remove source filter from /sessions to show all loc… | 2026-06-12 |
