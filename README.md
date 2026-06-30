@@ -196,15 +196,7 @@
 
 ### 📬 Latest Pull Requests
 
-| Project | # | Title | Created |
-|---------|---|-------|---------|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#48209](https://github.com/NousResearch/hermes-agent/pull/48209) | 🟢 feat(discord): add rename_thread action | 2026-06-18 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#48208](https://github.com/NousResearch/hermes-agent/pull/48208) | 🟢 fix(tools): add discord/discord_admin to _HERMES_CORE_TO… | 2026-06-18 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#48207](https://github.com/NousResearch/hermes-agent/pull/48207) | 🟢 fix(hindsight): use local timezone in retain payload tim… | 2026-06-18 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#47378](https://github.com/NousResearch/hermes-agent/pull/47378) | 🟢 fix(agent): distinguish network unreachable from missing… | 2026-06-16 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#45451](https://github.com/NousResearch/hermes-agent/pull/45451) | 🟢 fix(cron): `hermes cron edit --profile <name>` now sets … | 2026-06-13 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#45051](https://github.com/NousResearch/hermes-agent/pull/45051) | 🟢 fix: remove source filter from /sessions to show all loc… | 2026-06-12 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#45007](https://github.com/NousResearch/hermes-agent/pull/45007) | 🟢 fix(auxiliary): use empty default for OpenRouter auxilia… | 2026-06-12 |
+Currently **7** open PR(s) authored by [coder-xander](https://github.com/coder-xander).
 
 <!-- LATEST_PRS_END -->
 
