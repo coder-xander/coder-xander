@@ -17,11 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate PR table and update README
-        env:
-          # 需要 PAT 才能跨仓库搜索 issues/PRs
-          # GITHUB_TOKEN 只能在当前仓库用，跨仓库不行
-          GH_PAT: ${{ secrets.GH }}
+      - name: Generate PR count and update README
         run: python3 .github/scripts/update_prs.py
 
       - name: Commit if changed
