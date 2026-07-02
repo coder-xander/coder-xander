@@ -77,41 +77,6 @@
 
 <table>
   <tr>
-    <td align="center" width="33%"><strong>✏️ Editors & Terminals</strong></td>
-    <td align="center" width="34%"><strong>⚙️ Modern CLI</strong></td>
-    <td align="center" width="33%"><strong>🖥️ System & Desktop</strong></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/-VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-Zed-084CCF?style=for-the-badge&logo=zedindustries&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-Kitty-000000?style=for-the-badge&logo=kitty&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-Alacritty-F46D01?style=for-the-badge&logo=alacritty&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-Zellij-007ACC?style=for-the-badge">
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/-bat-00BA38?style=for-the-badge&logo=gnu&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-htop-009020?style=for-the-badge"><br>
-      <img src="https://img.shields.io/badge/-zoxide-AEBF00?style=for-the-badge"><br>
-      <img src="https://img.shields.io/badge/-gping-38BDF8?style=for-the-badge&logo=gping&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-Taskfile-228B22?style=for-the-badge"><br>
-      <img src="https://img.shields.io/badge/-GDB-FFFFFF?style=for-the-badge&logo=gnu&logoColor=663399"><br>
-      <img src="https://img.shields.io/badge/-LLDB-F06A00?style=for-the-badge&logo=llvm&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-CoreDump-8B0000?style=for-the-badge">
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/-Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-Notion-000000?style=for-the-badge&logo=notion&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-Wayland-0078D4?style=for-the-badge&logo=wayland&logoColor=white"><br>
-      <img src="https://img.shields.io/badge/-Rofi-B916E3?style=for-the-badge"><br>
-      <img src="https://img.shields.io/badge/-CopyQ-FF69B4?style=for-the-badge">
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
     <td align="center"><strong>🤖 AI Agents & Automation</strong></td>
   </tr>
   <tr>
