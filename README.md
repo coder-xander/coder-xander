@@ -175,15 +175,6 @@ Currently **7** open PR(s) authored by [coder-xander](https://github.com/coder-x
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=coder-xander&theme=onedark&no-frame=true&no-bg=true&column=5&margin-w=15">
-    <img src="https://github-profile-trophy.vercel.app/?username=coder-xander&theme=flat&no-frame=true&column=5&margin-w=15" alt="Trophies" width="70%">
-  </picture>
-</div>
-
-<br>
-
-<div align="center">
-  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=coder-xander&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff">
     <img src="https://streak-stats.demolab.com/?user=coder-xander&theme=default&hide_border=true" alt="GitHub Streak" width="60%">
   </picture>
@@ -200,17 +191,4 @@ Currently **7** open PR(s) authored by [coder-xander](https://github.com/coder-x
 
 <br>
 
----
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/C++%20systems%20engineer%20%E2%80%A2%20firmware%20to%20dashboard-0d1117?style=for-the-badge&logo=c%2B%2B&logoColor=58a6ff">
-    <img src="https://img.shields.io/badge/C++%20systems%20engineer%20%E2%80%A2%20firmware%20to%20dashboard-ffffff?style=for-the-badge&logo=c%2B%2B&logoColor=1f6feb" alt="Signature">
-  </picture>
-</div>
-
-<br>
-
-<div align="center">
-  <sub><i>from kernel to dashboard — every layer, every tool, one mission: make machines think.</i></sub>
-</div>
