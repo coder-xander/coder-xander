@@ -1,10 +1,12 @@
-# 每天根据最新贡献重新生成贪吃蛇动画，推送到 output 分支（README 引用该分支）
 name: Generate Contribution Snake
 
 on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/snake.yml]
   schedule:
-    - cron: "0 18 * * *"   # 每天 UTC 18:00，与 3D 贡献图同时段
-  workflow_dispatch:       # 支持手动触发（Actions 页面点 Run workflow 立即更新）
+    - cron: "17 18 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,23 +16,22 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
-
       - name: Generate snake SVGs
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Keep the current secret names working; the repository token is a
+          # public-contribution fallback.
+          github_token: ${{ secrets.SNAKE_PAT || secrets.PROFILE_TOKEN || secrets.GH || github.token }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.SNAKE_PAT || secrets.GITHUB_TOKEN }}
+            dist/github-contribution-grid-snake.svg?color_snake=%2306b6d4&color_dots=%23e2e8f0,%23bae6fd,%237dd3fc,%2338bdf8,%230ea5e9
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23a78bfa&color_dots=%23111827,%231e3a5f,%230e7490,%2306b6d4,%23a78bfa
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          keep_history: true
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
