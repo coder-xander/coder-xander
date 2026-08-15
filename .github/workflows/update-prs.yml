@@ -20,6 +20,9 @@ jobs:
       - name: Generate PR count and update README
         run: python3 .github/scripts/update_prs.py
 
+      - name: Validate README structure
+        run: python3 .github/scripts/check_readme.py
+
       - name: Commit if changed
         run: |
           if ! git diff --quiet README.md; then
