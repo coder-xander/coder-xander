@@ -16,10 +16,8 @@
     <br>
 
     <p align="center">
-      你好，我是 <b>Xander</b> 👋 —— 一名做端到端产品的系统工程师：<br>
-      嵌入式平台（RK3576 / RK3588）上 <b>U-Boot → Linux 内核 → 用户态服务</b>，<br>
-      <b>Go</b> 高并发后端、<b>Vue / Electron</b> 前端，<br>
-      以及通过 <b>MCP</b> 与 <b>RAG</b> 连接的 <b>AI 智能体</b>。
+      你好，我是 <b>Xander</b> 👋 —— 全栈工程师，从 <b>Linux 最底层</b> 到 <b>AI Agent</b> 都能搞定：<br>
+      <b>U-Boot · 内核 · 用户态</b> → <b>Go</b> 云服务 → <b>Vue / Electron</b> 客户端 → <b>MCP / RAG</b> 智能体。
     </p>
 
     <br>
@@ -140,10 +138,8 @@
 </div>
 
 <p align="center">
-  Hi, I'm <b>Xander</b> 👋 — a systems engineer who ships products <b>end-to-end</b>:<br>
-  <b>U-Boot → Linux kernel → userspace services</b> on embedded targets (RK3576 / RK3588),<br>
-  <b>Go</b> backends architected for high concurrency, <b>Vue / Electron</b> frontends,<br>
-  and <b>AI agents</b> wired through MCP &amp; RAG.
+  Hi, I'm <b>Xander</b> 👋 — a <b>full-stack</b> engineer from <b>bare metal to AI agents</b>:<br>
+  Linux <b>U-Boot · kernel · userspace</b> → <b>Go</b> cloud services → <b>Vue / Electron</b> clients → <b>MCP / RAG</b> agents.
 </p>
 
 <br>
