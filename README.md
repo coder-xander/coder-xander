@@ -124,6 +124,31 @@
 
     <br>
 
+    <!-- ACTIVITY -->
+    <div align="center">
+      <img src="assets/title-activity.svg" alt="ACTIVITY" width="300">
+    </div>
+
+    <br>
+
+    <div align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coder-xander/coder-xander/output/github-contribution-grid-snake-dark.svg?v=2">
+        <img src="https://raw.githubusercontent.com/coder-xander/coder-xander/output/github-contribution-grid-snake.svg?v=2" alt="GitHub Snake" width="80%">
+      </picture>
+    </div>
+
+    <br>
+
+    <div align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coder-xander/coder-xander/main/profile-3d-contrib/profile-night-view.svg">
+        <img src="https://raw.githubusercontent.com/coder-xander/coder-xander/main/profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution" width="100%">
+      </picture>
+    </div>
+
+    <br>
+
     <p align="center">
       <em>从 bootloader 到 AI 智能体 —— 用心与咖啡因构建。</em>
     </p>
@@ -341,8 +366,8 @@ Currently **1** open PR(s) authored by [coder-xander](https://github.com/coder-x
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coder-xander/coder-xander/output/github-contribution-grid-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/coder-xander/coder-xander/output/github-contribution-grid-snake.svg" alt="GitHub Snake" width="80%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coder-xander/coder-xander/output/github-contribution-grid-snake-dark.svg?v=2">
+    <img src="https://raw.githubusercontent.com/coder-xander/coder-xander/output/github-contribution-grid-snake.svg?v=2" alt="GitHub Snake" width="80%">
   </picture>
 </div>
 
