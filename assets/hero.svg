@@ -1,53 +1,130 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
-  <title id="title">Xander — systems, devices, cloud and intelligence</title>
-  <desc id="desc">A compact terminal-inspired profile banner with a connected systems diagram.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Xander builds from sensors to intelligent systems</title>
+  <desc id="desc">A rising five-layer architecture from physical sensors and robot hardware abstraction through Linux edge systems and cloud services to AI agents.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
       <stop offset="0" stop-color="#07111f"/>
-      <stop offset="0.52" stop-color="#0b1220"/>
+      <stop offset=".5" stop-color="#0b1220"/>
       <stop offset="1" stop-color="#17102b"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="0.55" stop-color="#60a5fa"/>
-      <stop offset="1" stop-color="#a78bfa"/>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset=".48" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
     </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity=".18"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17243a"/>
+      <stop offset="1" stop-color="#0d1727"/>
+    </linearGradient>
+    <radialGradient id="aiGlow">
+      <stop offset="0" stop-color="#c084fc" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M18 0H0V18" fill="none" stroke="#7dd3fc" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="1200" height="310" rx="22" fill="url(#bg)"/>
-  <circle cx="1000" cy="60" r="180" fill="url(#glow)" filter="url(#blur)"/>
-  <path d="M0 255 C180 215 300 305 500 260 S860 190 1200 248" fill="none" stroke="url(#accent)" stroke-opacity=".16" stroke-width="2"/>
-  <g transform="translate(54 42)">
-    <circle cx="9" cy="9" r="5" fill="#fb7185"/>
-    <circle cx="29" cy="9" r="5" fill="#fbbf24"/>
-    <circle cx="49" cy="9" r="5" fill="#34d399"/>
-    <text x="0" y="65" fill="#7dd3fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">xander@workbench:~$ whoami</text>
-    <text x="0" y="119" fill="#f8fafc" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="48" font-weight="750" letter-spacing="-1">XANDER</text>
-    <text x="2" y="153" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">systems engineer / product builder</text>
-    <rect x="0" y="181" width="440" height="2" rx="1" fill="url(#accent)"/>
-    <text x="0" y="216" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">bare metal → edge → cloud → intelligence</text>
-  </g>
-  <g transform="translate(642 67)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
-    <path d="M82 34 H184 M266 34 H368 M409 75 V132 M368 173 H266 M184 173 H82 M41 132 V75" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="5 7" opacity=".75"/>
-    <g fill="#0f1b2e" stroke-width="1.5">
-      <rect x="0" y="0" width="82" height="68" rx="12" stroke="#22d3ee"/>
-      <rect x="184" y="0" width="82" height="68" rx="12" stroke="#60a5fa"/>
-      <rect x="368" y="0" width="82" height="68" rx="12" stroke="#a78bfa"/>
-      <rect x="368" y="139" width="82" height="68" rx="12" stroke="#22d3ee"/>
-      <rect x="184" y="139" width="82" height="68" rx="12" stroke="#60a5fa"/>
-      <rect x="0" y="139" width="82" height="68" rx="12" stroke="#a78bfa"/>
+
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="24" fill="url(#grid)"/>
+  <circle cx="1075" cy="74" r="170" fill="url(#aiGlow)"/>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, sans-serif">
+    <text x="48" y="61" fill="#f8fafc" font-size="31" font-weight="760" letter-spacing="-.5">FROM SENSORS TO INTELLIGENCE</text>
+    <text x="49" y="91" fill="#94a3b8" font-size="15">I build every layer where the physical world becomes software.</text>
+    <g transform="translate(957 38)">
+      <rect width="194" height="34" rx="17" fill="#24183b" stroke="#a78bfa" stroke-opacity=".65"/>
+      <circle cx="20" cy="17" r="5" fill="#c084fc"/>
+      <text x="34" y="22" fill="#e9d5ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700">2 YEARS · ROBOTICS</text>
     </g>
-    <g fill="#e2e8f0" text-anchor="middle">
-      <text x="41" y="39">BOOT</text><text x="225" y="39">LINUX</text><text x="409" y="39">EDGE</text>
-      <text x="409" y="178">CLOUD</text><text x="225" y="178">APPS</text><text x="41" y="178">AGENTS</text>
-    </g>
-    <circle cx="133" cy="34" r="4" fill="#22d3ee"/><circle cx="317" cy="34" r="4" fill="#60a5fa"/>
-    <circle cx="409" cy="104" r="4" fill="#a78bfa"/><circle cx="317" cy="173" r="4" fill="#22d3ee"/>
-    <circle cx="133" cy="173" r="4" fill="#60a5fa"/><circle cx="41" cy="104" r="4" fill="#a78bfa"/>
   </g>
-  <rect x=".75" y=".75" width="1198.5" height="308.5" rx="21.25" fill="none" stroke="#334155" stroke-opacity=".75" stroke-width="1.5"/>
+
+  <path d="M120 318 C260 318 290 284 397 284 S559 244 651 244 S798 199 891 199 S1009 151 1090 151" fill="none" stroke="#0b1220" stroke-width="11"/>
+  <path d="M120 318 C260 318 290 284 397 284 S559 244 651 244 S798 199 891 199 S1009 151 1090 151" fill="none" stroke="url(#flow)" stroke-width="2.5" stroke-dasharray="7 8" filter="url(#softGlow)"/>
+
+  <!-- Physical sensors: traces, camera lens and IMU axes -->
+  <g transform="translate(48 228)">
+    <rect width="196" height="142" rx="17" fill="url(#card)" stroke="#2dd4bf" stroke-opacity=".72"/>
+    <path d="M0 104H31L43 92H71M196 35H171L158 48H134M20 0V19L32 31" fill="none" stroke="#2dd4bf" stroke-opacity=".4"/>
+    <circle cx="51" cy="48" r="22" fill="#091923" stroke="#5eead4" stroke-width="2"/>
+    <circle cx="51" cy="48" r="12" fill="#0f3841" stroke="#99f6e4"/>
+    <circle cx="46" cy="43" r="3" fill="#ccfbf1"/>
+    <g transform="translate(111 28)" stroke-linecap="round">
+      <circle cx="18" cy="20" r="4" fill="#f8fafc"/>
+      <path d="M18 20V1M18 20L37 20M18 20L6 32" stroke-width="2"/>
+      <path d="M18 1l-4 6M18 1l4 6M37 20l-6-4M37 20l-6 4M6 32l1-7M6 32l7-1" stroke="#94a3b8"/>
+    </g>
+    <text x="18" y="97" fill="#5eead4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700">01 · PHYSICAL</text>
+    <text x="18" y="120" fill="#f1f5f9" font-family="ui-sans-serif, system-ui" font-size="17" font-weight="700">Sensors &amp; I/O</text>
+    <text x="18" y="137" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">CAMERA · IMU · AUDIO</text>
+  </g>
+
+  <!-- Robotics hardware abstraction -->
+  <g transform="translate(279 194)">
+    <rect width="196" height="142" rx="17" fill="url(#card)" stroke="#22d3ee" stroke-opacity=".72"/>
+    <g transform="translate(62 18)" fill="none" stroke="#67e8f9" stroke-width="2">
+      <path d="M17 17h54a8 8 0 018 8v34a8 8 0 01-8 8H17a8 8 0 01-8-8V25a8 8 0 018-8z"/>
+      <path d="M44 17V7M38 7h12M0 34h9M79 34h9M0 49h9M79 49h9"/>
+      <circle cx="29" cy="39" r="6"/><circle cx="59" cy="39" r="6"/>
+      <path d="M28 56h32"/>
+    </g>
+    <text x="18" y="97" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700">02 · ROBOTICS</text>
+    <text x="18" y="120" fill="#f1f5f9" font-family="ui-sans-serif, system-ui" font-size="17" font-weight="700">Hardware Abstraction</text>
+    <text x="18" y="137" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">ROS · HAL · DRIVERS · SYNC</text>
+  </g>
+
+  <!-- Linux edge platform -->
+  <g transform="translate(510 154)">
+    <rect width="196" height="142" rx="17" fill="url(#card)" stroke="#38bdf8" stroke-opacity=".72"/>
+    <g transform="translate(59 19)">
+      <rect x="4" y="4" width="70" height="58" rx="9" fill="#0c2132" stroke="#7dd3fc" stroke-width="2"/>
+      <path d="M18 0v8M32 0v8M46 0v8M60 0v8M18 58v8M32 58v8M46 58v8M60 58v8M0 18h8M0 32h8M0 46h8M70 18h8M70 32h8M70 46h8" stroke="#38bdf8" stroke-width="2"/>
+      <text x="39" y="39" fill="#e0f2fe" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700">LINUX</text>
+    </g>
+    <text x="18" y="97" fill="#7dd3fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700">03 · EDGE</text>
+    <text x="18" y="120" fill="#f1f5f9" font-family="ui-sans-serif, system-ui" font-size="17" font-weight="700">Systems &amp; Runtime</text>
+    <text x="18" y="137" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">C++ · RK35XX · OTA · BLE</text>
+  </g>
+
+  <!-- Cloud platform -->
+  <g transform="translate(741 109)">
+    <rect width="196" height="142" rx="17" fill="url(#card)" stroke="#818cf8" stroke-opacity=".72"/>
+    <g transform="translate(55 17)" fill="#121d39" stroke="#a5b4fc" stroke-width="2">
+      <path d="M20 57C8 57 2 50 2 41c0-9 7-16 17-17C23 10 34 4 47 7c10 2 17 10 19 19 11 0 19 7 19 16 0 9-8 15-19 15z"/>
+      <circle cx="28" cy="41" r="4" fill="#a5b4fc" stroke="none"/>
+      <circle cx="48" cy="27" r="4" fill="#a5b4fc" stroke="none"/>
+      <circle cx="63" cy="43" r="4" fill="#a5b4fc" stroke="none"/>
+      <path d="M31 39l14-10M52 30l9 10M32 43h27" stroke-opacity=".6"/>
+    </g>
+    <text x="18" y="97" fill="#a5b4fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700">04 · CLOUD</text>
+    <text x="18" y="120" fill="#f1f5f9" font-family="ui-sans-serif, system-ui" font-size="17" font-weight="700">Fleet &amp; Services</text>
+    <text x="18" y="137" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">GO · MQTT · DATA · DEVOPS</text>
+  </g>
+
+  <!-- AI agent layer -->
+  <g transform="translate(972 61)">
+    <rect width="180" height="142" rx="17" fill="url(#card)" stroke="#c084fc" stroke-opacity=".78"/>
+    <g transform="translate(49 16)" fill="none" stroke="#d8b4fe" stroke-width="1.8">
+      <path d="M15 37L34 17 56 26 70 8M15 37l18 20 23-8 17 15M34 17l-1 40M56 26v23M70 8l3 56"/>
+      <circle cx="15" cy="37" r="5" fill="#581c87"/><circle cx="34" cy="17" r="5" fill="#6b21a8"/>
+      <circle cx="56" cy="26" r="5" fill="#7e22ce"/><circle cx="70" cy="8" r="5" fill="#9333ea"/>
+      <circle cx="33" cy="57" r="5" fill="#7e22ce"/><circle cx="56" cy="49" r="5" fill="#9333ea"/>
+      <circle cx="73" cy="64" r="5" fill="#a855f7"/>
+    </g>
+    <text x="18" y="97" fill="#d8b4fe" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700">05 · AI</text>
+    <text x="18" y="120" fill="#f1f5f9" font-family="ui-sans-serif, system-ui" font-size="17" font-weight="700">Intelligent Systems</text>
+    <text x="18" y="137" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">MCP · RAG · AGENTS</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+    <text x="49" y="398" fill="#64748b">PHYSICAL WORLD</text>
+    <text x="1048" y="398" fill="#a78bfa">DECISIONS</text>
+    <path d="M158 394H1028" stroke="url(#flow)" stroke-width="1.5" stroke-opacity=".55"/>
+    <path d="M1028 394l-8-4v8z" fill="#a78bfa"/>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="418.5" rx="23.25" fill="none" stroke="#334155" stroke-opacity=".8" stroke-width="1.5"/>
 </svg>

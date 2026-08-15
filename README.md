@@ -9,13 +9,13 @@
 
 <p align="center">
   I build complete products across the stack: <b>bootloader → Linux → device services → cloud → apps → AI agents</b>.<br>
-  Currently working on multi-camera edge systems, fleet management, OTA infrastructure and grounded agents.
+  <b>2 years in robotics</b>, focused on sensors, hardware abstraction, real-time data pipelines and edge systems.
 </p>
 
 <details>
   <summary><b>中文简介</b></summary>
   <br>
-  我是 Xander，一名偏系统方向的全栈工程师。工作范围从 U-Boot、Linux 内核与 Rockchip 多媒体管线，一直延伸到 Go 设备云、桌面/移动端产品和 MCP/ADK 智能体。近期主要在做多相机边缘设备、设备管理、云端 OTA、标定工具与 AI 运维基础设施。
+  我是 Xander，一名偏系统方向的全栈工程师，有两年机器人系统研发经验，重点做传感器接入、硬件抽象层和实时数据管线。工作范围从 U-Boot、Linux 内核与 Rockchip 多媒体管线，一直延伸到 Go 设备云、桌面/移动端产品和 MCP/ADK 智能体。
 </details>
 
 ## Stack map
@@ -23,14 +23,14 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚙️ Edge &amp; Embedded</h3>
-      <code>C++20</code> <code>Python</code> <code>Linux</code> <code>U-Boot</code> <code>systemd</code><br><br>
-      RK3576 / RK3588 · Device Tree · drivers · V4L2 · ALSA · FFmpeg · Rockchip MPP / RGA / RKAIQ · DRM · BlueZ · D-Bus · ADB · A/B OTA
+      <h3>🤖 Robotics, Sensors &amp; Edge</h3>
+      <code>C++20</code> <code>ROS Noetic</code> <code>Linux</code> <code>Sensor HAL</code> <code>Real-time I/O</code><br><br>
+      Camera / IMU / audio integration · hardware abstraction layers · timestamp synchronization · V4L2 · ALSA · FFmpeg · Rockchip MPP / RGA / RKAIQ · BlueZ · D-Bus
     </td>
     <td width="50%" valign="top">
       <h3>☁️ Backend &amp; Device Cloud</h3>
       <code>Go</code> <code>MQTT</code> <code>gRPC</code> <code>JSON-RPC</code> <code>WebSocket</code><br><br>
-      Concurrent services · device lifecycle · remote diagnostics · OTA orchestration · Ent / Atlas · PostgreSQL / SQLite · Redis · AWS S3 · Nginx
+      Concurrent services · fleet and device lifecycle · remote diagnostics · OTA orchestration · Ent / Atlas · PostgreSQL / SQLite · Redis · AWS S3 · Nginx
     </td>
   </tr>
   <tr>
@@ -42,7 +42,7 @@
     <td width="50%" valign="top">
       <h3>🧠 AI, Delivery &amp; Debugging</h3>
       <code>MCP</code> <code>ADK Go</code> <code>RAG</code> <code>Docker</code> <code>GitHub Actions</code><br><br>
-      Gemini / GenAI · grounded agents · vector retrieval · multi-agent workflows · CMake · Taskfile · cross-compilation · GDB / LLDB · coredumps
+      Gemini / GenAI · grounded agents · vector retrieval · multi-agent workflows · U-Boot · Device Tree · systemd · A/B OTA · CMake · cross-compilation · GDB / LLDB
     </td>
   </tr>
 </table>
