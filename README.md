@@ -9,6 +9,131 @@
 
 <br>
 
+<div align="center">
+  <details>
+    <summary><b>🌐 中文版</b> · <i>点击展开 / click to expand</i></summary>
+
+    <br>
+
+    <p align="center">
+      你好，我是 <b>Xander</b> 👋 —— 一名做端到端产品的系统工程师：<br>
+      嵌入式平台（RK3576 / RK3588）上 <b>U-Boot → Linux 内核 → 用户态服务</b>，<br>
+      <b>Go</b> 高并发后端、<b>Vue / Electron</b> 前端，<br>
+      以及通过 <b>MCP</b> 与 <b>RAG</b> 连接的 <b>AI 智能体</b>。
+    </p>
+
+    <br>
+
+<table>
+  <tr>
+    <td width="33%" align="center"><b>🧬 语言与构建</b></td>
+    <td width="33%" align="center"><b>🐧 嵌入式与 Linux</b></td>
+    <td width="33%" align="center"><b>🚀 后端与高并发</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-C%2B%2B20-F97316?style=for-the-badge&logo=cplusplus&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-Bazel-43A047?style=for-the-badge&logo=bazel&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-Nuitka-7C3AED?style=for-the-badge&logo=python&logoColor=white"><br>
+      <br><em>现代 C++20 / Go / Python，配合 CMake · Bazel 构建链，Nuitka 原生编译。</em>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-U--Boot-003366?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-Linux%20%E5%86%85%E6%A0%B8-FCC624?style=for-the-badge&logo=linux&logoColor=black"><br>
+      <img src="https://img.shields.io/badge/-%E8%AE%BE%E5%A4%87%E6%A0%91%E4%B8%8E%E9%A9%B1%E5%8A%A8-0891B2?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-%E7%94%A8%E6%88%B7%E6%80%81%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B-0E7490?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-%E8%BF%9B%E7%A8%8B%E4%BC%98%E5%85%88%E7%BA%A7%E8%B0%83%E5%BA%A6-155E75?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-Systemd-006400?style=for-the-badge&logo=systemd&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-OTA%20%E5%8D%87%E7%BA%A7-8B0000?style=for-the-badge"><br>
+      <br><em>从引导加载、内核到用户态：板级 bring-up、外设驱动、进程优先级调度与 OTA（RK3576 / RK3588）。</em>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-Go%20%E6%9C%8D%E5%8A%A1-16A34A?style=for-the-badge&logo=go&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-%E9%AB%98%E5%B9%B6%E5%8F%91-15803D?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-SQLC%20%2B%20PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"><br>
+      <br><em>面向规模的 Go 服务架构 —— goroutine 并发、类型安全 SQL、缓存、gRPC 与容器化部署。</em>
+    </td>
+  </tr>
+</table>
+
+<br>
+<table>
+  <tr>
+    <td width="33%" align="center"><b>🎨 前端与桌面</b></td>
+    <td width="33%" align="center"><b>🤖 AI 智能体与服务</b></td>
+    <td width="33%" align="center"><b>🛠️ 工具与调试</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-Vue%203-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-Electron-47848F?style=for-the-badge&logo=electron&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-WebSocket%20IPC-2563EB?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-%E4%BB%AA%E8%A1%A8%E7%9B%98%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96-1D4ED8?style=for-the-badge"><br>
+      <br><em>交互式仪表盘与跨平台桌面应用，渲染进程与主进程之间实时 IPC。</em>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-ADK%20Go-9333EA?style=for-the-badge&logo=go&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-MCP%20Server-7E22CE?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-RAG%20%E4%B8%8E%E5%90%91%E9%87%8F%E5%BA%93-6B21A8?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93-581C87?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-Claude%20Code-DA7B48?style=for-the-badge&logo=anthropic&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-Codex-000000?style=for-the-badge&logo=openai&logoColor=white"><br>
+      <br><em>用 ADK Go 编写 code-first 智能体，MCP 暴露工具，RAG / 向量检索增强回答。</em>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-GDB-663399?style=for-the-badge&logo=gnu&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-LLDB-F06A00?style=for-the-badge&logo=llvm&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-Zellij-007ACC?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-bat-00BA38?style=for-the-badge&logo=gnu&logoColor=white"><br>
+      <img src="https://img.shields.io/badge/-zoxide-AEBF00?style=for-the-badge"><br>
+      <img src="https://img.shields.io/badge/-Taskfile-228B22?style=for-the-badge"><br>
+      <br><em>终端优先的工作流 —— GDB/LLDB 调试、coredump 分析，现代 CLI 工具链。</em>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+    <table>
+      <tr>
+        <td width="50%" align="center">
+          <a href="https://github.com/coder-xander/xanderPool">
+            <img src="https://img.shields.io/badge/-xanderPool-6E56CF?style=for-the-badge&logo=cplusplus&logoColor=white" alt="xanderPool">
+          </a>
+          <br>
+          <em>C++20 work-stealing 线程池：优先级调度 + 结构化并发</em>
+          <br><br>
+          <code>work-stealing 双端队列</code> · <code>优先级调度</code> · <code>无锁</code>
+        </td>
+        <td width="50%" align="center">
+          <a href="https://github.com/coder-xander/api_panel">
+            <img src="https://img.shields.io/badge/-api__panel-6E56CF?style=for-the-badge&logo=electron&logoColor=white" alt="api_panel">
+          </a>
+          <br>
+          <em>多平台 AI API 余额与用量仪表盘</em>
+          <br><br>
+          <code>Electron</code> · <code>Vue 3</code> · <code>Gridstack</code> · <code>WebSocket IPC</code>
+        </td>
+      </tr>
+    </table>
+
+    <br>
+
+    <p align="center">
+      <em>从 bootloader 到 AI 智能体 —— 用心与咖啡因构建。</em>
+    </p>
+  </details>
+</div>
+
+<br>
+
 <!-- ── ABOUT ─────────────────────────────────────────────────── -->
 <div align="center">
   <img src="assets/title-about.svg" alt="ABOUT ME" width="260">

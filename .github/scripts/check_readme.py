@@ -28,7 +28,7 @@ if end < start:
     errors.append("PR markers out of order")
 
 # 2. HTML tag balance
-for tag in ["div", "table", "tr", "picture"]:
+for tag in ["div", "table", "tr", "picture", "details", "summary"]:
     opens = len(re.findall(rf"<{tag}[\s>]", content))
     closes = len(re.findall(rf"</{tag}>", content))
     if opens != closes:
