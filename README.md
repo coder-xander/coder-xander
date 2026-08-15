@@ -4,14 +4,14 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3200&pause=600&color=6E56CF&center=true&vCenter=true&width=680&lines=C%2B%2B+systems+engineer+%F0%9F%A4%96;bootloader+%E2%86%92+kernel+%E2%86%92+userspace;Go+services+built+for+concurrency+%F0%9F%9A%80;AI+agents+%C2%B7+MCP+%C2%B7+RAG+%F0%9F%A7%A0;Robotics+%C2%B7+Embedded+%C2%B7+Full+Stack" alt="Typing SVG">
   </picture>
   <br>
-  <em><b>from bootloader to AI agents</b> — C++ at the core, Linux under the hood, Go on the wire.</em>
+  <em><b>From Linux bootloader to AI agents</b> — full-stack.</em>
 </div>
 
 <br>
 
 <div align="center">
   <details>
-    <summary><b>🌐 中文版</b> · <i>点击展开 / click to expand</i></summary>
+    <summary>🌐 中文</summary>
 
     <br>
 
@@ -150,7 +150,7 @@
     <br>
 
     <p align="center">
-      <em>从 bootloader 到 AI 智能体 —— 用心与咖啡因构建。</em>
+      <em>从 Linux 底层到 AI 智能体，全栈开发。</em>
     </p>
   </details>
 </div>
@@ -388,5 +388,5 @@ Currently **1** open PR(s) authored by [coder-xander](https://github.com/coder-x
 </div>
 
 <p align="center">
-  <em>from bootloader to AI agents — built with 💜 and a lot of caffeine.</em>
+  <em>Thanks for visiting 👋</em>
 </p>
