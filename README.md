@@ -9,13 +9,13 @@
 
 <p align="center">
   I build complete products across the stack: <b>bootloader → Linux → device services → cloud → apps → AI agents</b>.<br>
-  <b>2 years in robotics</b>, focused on sensors, hardware abstraction, real-time data pipelines and edge systems.
+  I design software architectures for complex robotic systems and consumer Linux devices, from sensor interfaces and HALs to edge services and cloud operations.
 </p>
 
 <details>
   <summary><b>中文简介</b></summary>
   <br>
-  我是 Xander，一名偏系统方向的全栈工程师，有两年机器人系统研发经验，重点做传感器接入、硬件抽象层和实时数据管线。工作范围从 U-Boot、Linux 内核与 Rockchip 多媒体管线，一直延伸到 Go 设备云、桌面/移动端产品和 MCP/ADK 智能体。
+  我是 Xander，一名偏系统方向的全栈工程师，主要做复杂机器人与消费级 Linux 设备的软件架构设计，覆盖传感器接入、硬件抽象层、设备服务、边缘运行时、云端管理和 AI 能力。
 </details>
 
 ## Stack map
@@ -23,9 +23,9 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 Robotics, Sensors &amp; Edge</h3>
-      <code>C++20</code> <code>ROS Noetic</code> <code>Linux</code> <code>Sensor HAL</code> <code>Real-time I/O</code><br><br>
-      Camera / IMU / audio integration · hardware abstraction layers · timestamp synchronization · V4L2 · ALSA · FFmpeg · Rockchip MPP / RGA / RKAIQ · BlueZ · D-Bus
+      <h3>🤖 Robotics &amp; Linux Device Architecture</h3>
+      <code>C++20</code> <code>ROS Noetic</code> <code>Linux</code> <code>Sensor HAL</code> <code>Device Services</code><br><br>
+      Sensor and subsystem boundaries · camera / IMU / audio integration · hardware abstraction layers · timestamp synchronization · V4L2 · ALSA · Rockchip MPP / RGA / RKAIQ · BlueZ · D-Bus
     </td>
     <td width="50%" valign="top">
       <h3>☁️ Backend &amp; Device Cloud</h3>
