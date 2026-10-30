@@ -76,7 +76,7 @@
 
 ### 📬 Latest Pull Requests
 
-Currently **0** open PR(s) authored by [coder-xander](https://github.com/coder-xander).
+Currently **1** open PR(s) authored by [coder-xander](https://github.com/coder-xander).
 
 <!-- LATEST_PRS_END -->
 
